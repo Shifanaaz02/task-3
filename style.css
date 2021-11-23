@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* *****************Nav bar****************** */ 
+.top{
+    position: relative;
+    text-align: center;
+    min-height: 120px;
+}
+
+.top .heading {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 50px;
+    font-family: aftergloww;
+    text-overflow: hidden;
+    z-index: -0.5;
+}
+.nav span a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav{
+    float: right;
+}
+
+.nav span{
+    /* padding-right: 19px; */
+    padding: 52px 29px 10px 0px;    
+}
+
+.nav span a{
+    text-decoration: none;
+}
+
+.pin{
+    padding-left: 18px;
+}
+.pin p{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* *****************background image****************** */ 
+
+.hero-image {
+    background-image: url("assets/bg.jfif");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    color: white;
+    padding-top: 13px;
+    margin-left: 50px;
+}
+.hero-text h1 {
+    font-size: 48px;
+    font-family: afterglow;
+}
+.hero-text .first {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero-text .second {
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero-text .third {
+    font-size: 10px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0.5;
+}
+
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+ 
+/* Remainig content */
+.row{
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.col-2{
+  flex-basis: 50%;
+
+}
+.col-2 img{
+  max-width: 95%;
+  padding: 20px 0px;
+}
+.small-container{
+  margin: auto;
+  padding-left: 65px;
+  padding-right: 85px;
+  /* margin-top: 100px;
+  padding-top: 30px; */
+}
+.col-2 img{
+  padding: 0;
+}
+.col-2{
+  padding: 10px;
+  
+}
+.note{
+    padding-top: 80px;
+    padding-left: 80px;
+    margin-left: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+.col-2 ul{
+  padding-top: 0px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+.col-2 li{
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: gray;
+    padding-left: 0px;
+    
+}
+.btn {
+    display: inline;
+    background: black;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border: none;
+    transition-duration: 0.1s;
+    font-size: 13px;
+  }
+.btn:hover{
+    background-color: gray; /* Green */
+    color: white;
+}
+.col-2 input{
+  width: 40%;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-top: 30px;
+  font-size: 18px;
+  color: grey;
+  
+}
+.col-2 select{
+  width: 40%;
+  border: none;
+  border-bottom: 2px solid black;
+  color: grey;
+  padding-top: 20px;
+  font-size: 18px;
+  
+}
+.col-2 span{
+  padding: 20px;
+  content: "\21C4";
+  font-size: 24px;
+}
+.col-2 input[name=start] {
+  width: 30%;
+}
